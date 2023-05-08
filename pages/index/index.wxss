@@ -1,0 +1,140 @@
+/**index.wxss**/
+
+Page {
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+/* 标题样式 */
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* 大个的模块页面设置 */
+.module {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  box-shadow: 1px 2px 5px 2px  #F5A9B8;
+}
+.module2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  box-shadow: 1px 2px 5px 2px  #9ae1fc;
+}
+
+/* 是数据外层包装啦 */
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* 
+Transgender_Pride_flag color:
+blue: #5BCEFA
+pink: #F5A9B8
+white: #FFF
+*/
+
+/* 控制标题是粉蓝白的呀 */
+.font_blue {
+  color: #5BCEFA;
+  font-size: 75rpx;
+  font-weight: bold;
+}
+.font_pink {
+  color: #F5A9B8;
+  font-size: 75rpx;
+  font-weight: bold;
+}
+
+/* 输入框的样式 */
+.inputstyle {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #F5A9B8;
+  width: 120px;
+}
+
+/* 输出框的样式 */
+.outputstyle {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #5BCEFA;
+  width: 120px;
+}
+
+/* 额外项目的文字样式 */
+.additionpickstyle {
+  width: 100px;
+  height: 24px;
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* 单位选项框的样式 */
+.pickerstyle {
+  width: 50px;
+  height: 24px;
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* 说明部分的样式 */
+.explain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+/* 说明部分每一行的样式 */
+.explain_view {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  word-break: break-all;
+  text-align: left;
+}
+
+/* 重置按钮样式 */
+.reset {
+  margin-top: 15px;
+  /* margin-bottom: 5px; */
+}

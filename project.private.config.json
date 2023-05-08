@@ -1,0 +1,8 @@
+{
+  "description": "HormoneTransformer, by 蝶梦 in 2023.05.06",
+  "projectname": "HormoneTransformer",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  }
+}
