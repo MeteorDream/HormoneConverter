@@ -1,7 +1,7 @@
 <!--index.wxml-->
 
 <view class="page-body">
-  <view class="module">
+  <view class="module2">
   <view class="page-section">
     <view class='title'>
       <view class="font_pink">激</view>
@@ -11,13 +11,10 @@
       <view class="font_pink">器</view>
     </view>
     <view class="box">
-      <view>请选择：</view>
+      <view>请选择激素类型：</view>
         <picker class="additionpickstyle" bindchange="getMolar" value="{{m_index}}" range="{{molar}}" range-key="name">
           {{molar[m_index].name}}
         </picker>
-        <!-- <picker class="additionpickstyle" bindchange="getUI" value="{{u_index}}" range="{{UI}}" range-key="name">
-          {{UI[u_index].name}}
-        </picker> -->
       </view>
   </view>
   <view class="page-section">
@@ -57,13 +54,14 @@
   </view>
   </view>
   <view class="page-section">
-  <view class="module2">
+  <view class="module">
     <view class="explain">
       <view class="explain_view">说明：</view>
-      <view class="explain_view">1. 希望大家能好好爱惜自己，同时也祝愿大家都能变成自己理想的样子(❁´◡`❁)🧡🧡🧡</view>
-      <view class="explain_view">2. 不支持摩尔单位和 IU 单位之间的转换</view>
-      <view class="explain_view">3. 泌乳素的浓度采用摩尔浓度是不科学的！</view>
-      <view class="explain_view">4. 跨性别女性的理想激素水平为：睾酮 {{"<"}} 50 ng/dl,  雌二醇 {{">"}} 100 pg/ml</view>
+      <view class="explain_view">1. 祝愿大家都能变成自己理想的样子，同时也希望大家要好好爱惜自己(❁´◡`❁)‍</view>
+      <view class="explain_view">2. 很抱歉换算器目前不支持摩尔单位和 IU 单位之间的转换，IU 单位仅支持 "泌乳素(IU)，卵泡刺激素，促黄体素" 三种类型 </view>
+      <view class="explain_view">3. 泌乳素的浓度采用摩尔浓度(pmol, nmol)是不科学的！在使用 IU 单位计算泌乳素时请选择 "泌乳素(IU)" 选项哦！</view>
+      <view class="explain_view">4. 跨性别女性的理想激素水平参考值为：睾酮 {{"<"}} 50 ng/dl,  雌二醇 {{">"}} 100 pg/ml</view>
+      <view class="explain_view">5. 我们和世界都爱着你❤️❤️❤️</view>
     </view>
   </view>
   </view>
@@ -72,6 +70,22 @@
 
 
 <!-- app.json 加上这个：
-,
-    "lazyCodeLoading" : "requiredComponents"
+
+更新说明：
+
+1.1.0 更新说明
+1. 激素类型选项改为常驻，摩尔单位与IU单位选项卡合并
+2. 将摩尔单位与 IU 单位同时选择时结果标记为 “不支持”
+3. 添加了重置按钮（仅重置输入输出值不会重置单位）
+4. 将 0.1 ~ 10000 以内的小数设置为保留两位小数，小于 0.1 的或大于 1w 的以保留两位的科学计数法表示
+5. 更新了说明部分
+6. 优化了 UI 界面
+
+1.1.1 更新说明
+1. 调整了一下样式
+2. 修复了 IU 的计算逻辑错误
+3. 增加了对激素类型和单位不匹配的判断（输出"激素/单位不匹配"）
+4. 修复了部分计算中存在的数值精度问题
+5. 调整常规输出范围为 [0.01, 100000）,范围外的显示为科学计数法
+6. 细化了输出显示：> 0.1 的小数保留两位，0.01~0.1的保留三位
  -->

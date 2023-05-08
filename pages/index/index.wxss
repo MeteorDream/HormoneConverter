@@ -75,7 +75,7 @@ white: #FFF
   border-style: solid;
   border-radius: 8px;
   border-color: #F5A9B8;
-  width: 100px;
+  width: 120px;
 }
 
 /* 输出框的样式 */
@@ -85,12 +85,12 @@ white: #FFF
   border-style: solid;
   border-radius: 8px;
   border-color: #5BCEFA;
-  width: 100px;
+  width: 120px;
 }
 
 /* 额外项目的文字样式 */
 .additionpickstyle {
-  width: 70px;
+  width: 100px;
   height: 24px;
   background-color: white;
   text-align: center;
