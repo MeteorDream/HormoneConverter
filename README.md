@@ -6,7 +6,7 @@ Hope you can be yourself. The world and We are loving you.
 
 ## Introduction
 
-This is a WeChat mini program for hormone unit conversion. Your can scan the QR code below by WeChat to try it.
+This is a source code of WeChat mini program for hormone unit conversion. Your can scan the QR code below by WeChat to try it.
 
 ![gh_3e08b8bbcbab_258 (1)](image/gh_3e08b8bbcbab_258 (1).jpg)
 
@@ -23,7 +23,7 @@ You can convert the follow hormones :
 
 ## 简介
 
-这是一个性激素单位转换的微信小程序，欢迎使用微信扫描上面的二维码使用。
+这是一个性激素单位转换的微信小程序源码，欢迎使用微信扫描上面的小程序码使用。
 
 小程序参考了[mtf.wiki](https://mtf.wiki/zh-cn/converter/)。
 
