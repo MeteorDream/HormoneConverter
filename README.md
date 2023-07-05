@@ -8,7 +8,7 @@ Hope you can be yourself. The world and We are loving you.
 
 This is a source code of WeChat mini program for hormone unit conversion. Your can scan the QR code below by WeChat to try it.
 
-![gh_3e08b8bbcbab_258 (1)](image/gh_3e08b8bbcbab_258 (1).jpg)
+![program](image/program_code.jpg)
 
 The mini program is referenced from [mtf.wiki](https://mtf.wiki/zh-cn/converter/).
 
