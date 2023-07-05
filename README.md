@@ -12,7 +12,7 @@ This is a source code of WeChat mini program for hormone unit conversion. Your c
 
 The mini program is referenced from [mtf.wiki](https://mtf.wiki/zh-cn/converter/).
 
-You can convert the follow hormones :
+You can convert the units of follow hormones :
 
 - [Estradiol (E2)](https://en.wikipedia.org/wiki/Estradiol)
 - [Testosterone (T)](https://en.wikipedia.org/wiki/Testosterone)
@@ -27,7 +27,7 @@ You can convert the follow hormones :
 
 小程序参考了[mtf.wiki](https://mtf.wiki/zh-cn/converter/)。
 
-可用于以下性激素的转换(即性激素六项项目)：
+主要用于以下性激素单位的转换(即性激素六项项目)：
 
 - 雌二醇 (E2)
 - 睾酮 (T)
@@ -35,3 +35,5 @@ You can convert the follow hormones :
 - 孕酮 (P) - 性激素五项不包含这项
 - 促卵泡激素/卵泡刺激素 (FSH)
 - 促黄体生成素 (LH)
+
+PS: 建议大家对照检查单的参考范围使用哦~
